@@ -1,6 +1,6 @@
 # Project Title
 
-Automation Test is a project automating a http://automationpractice.com login and registration functionalities
+Automation Test is a project automating of http://automationpractice.com login and registration functionalities
 
 ## Getting Started
 
@@ -13,58 +13,22 @@ Before cloning be sure to have Eclipse IDE installed on your local machine: http
 ### Installing
 
 - Clone this repo to your local machine using `https://github.com/TiJi834/automationtest.git`
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+- Install Eclipse IDE and open it
+- Click on File -> Import -> Existing Project into Workspace and import cloned repository
 
 ## Running the tests
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Selenium WebDriver](https://selenium.dev/downloads/) - Test automation framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [JUnit](https://junit.org/junit5/) - Unit testing framework used
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [Git](https://github.com) as version-control system.
 
 ## Authors
 
