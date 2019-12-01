@@ -18,7 +18,14 @@ Before cloning be sure to have Eclipse IDE installed on your local machine: http
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To run all tests at once:
+- Go to src -> tests
+- Click "Run As" -> "JUnit Test"
+
+To run one test:
+- Go to src -> tests
+- Select test to run
+- Click "Run As" -> "JUnit Test"
 
 ## Built With
 
