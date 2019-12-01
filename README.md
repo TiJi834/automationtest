@@ -1,6 +1,6 @@
 # Project Title
 
-Automation Test is a project automating of http://automationpractice.com login and registration functionalities
+Automation Test is a project automating http://automationpractice.com login and registration functionalities
 
 ## Getting Started
 
