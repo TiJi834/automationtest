@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import net.andreinc.mockneat.MockNeat;
 import pageObjects.testwebsite.TestWebsiteDashboardPage;
 import pageObjects.testwebsite.TestWebsiteLoginPage;
@@ -23,7 +24,7 @@ class TestRegisterForm {
 	@BeforeAll
 	public static void setup() {
 		// setting up configuration before tests
-		System.setProperty("webdriver.chrome.driver", ".\\exe\\chromedriver.exe");
+		WebDriverManager.chromedriver().version("77.0.3865.40").setup();
 		driver = new ChromeDriver();
 	}
 
